@@ -29,7 +29,7 @@ def send_welcome(message):
     bot.send_message(message.chat.id, "Hi, want a picture?")
 
 
-# The command '/get' will execute the following function
+# The command '/getcat' will execute the following function
 @bot.message_handler(commands=['getcat'])
 def send_photo(message):
     # We inform the user that the photo will be sent now
